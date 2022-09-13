@@ -1,10 +1,17 @@
-public class helloworld
+
+public class helloworld 
 {
-	public static void main(String[] args) {
-		System.out.println("Hello World");
+	public String Display() {
+		String str = "Hello, World";
+		return str;
 	}
-	public String Result()
-	{
-	   return "Hello, World";
-	}
+	
+		public static void main(String args[]) 
+		{
+			helloworld obj = new helloworld();
+		  String str1 = obj.Display();
+		  System.out.println(str1);
+		   
+		}
+	
 }
