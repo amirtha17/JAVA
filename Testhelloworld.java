@@ -1,20 +1,16 @@
+import static org.junit.Assert.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
 
-import org.junit.jupiter.api.Test;
-
-class Testhelloworld {
+class Testhelloworld extends helloworld {
 	
-	helloworld object = new helloworld();
+	
 	@Test
 	public void testResult() {
-		
-		String output = object.Display();
+		helloworld ob = new helloworld();
+		String output = ob.Result();
 		assertEquals("Hello, World",output);
-	}
-	public static void main(String args[]) {
-		Testhelloworld object1 = new Testhelloworld();
-		object1.testResult();
 	}
 
 }
+
