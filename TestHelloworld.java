@@ -3,7 +3,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-class TestHelloworld {
+class TestHelloworld extends Helloworld
+{
 	
 	Helloworld object = new Helloworld();
 	@Test
