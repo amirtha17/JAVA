@@ -6,7 +6,7 @@ class Testhelloworld extends helloworld {
 	
 	
 	@Test
-	public void testResult() {
+	public void Test_Result() {
 		helloworld ob = new helloworld();
 		String output = ob.Result();
 		assertEquals("Hello, World",output);
